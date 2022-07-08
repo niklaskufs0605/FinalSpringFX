@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.application.ui.costs",
+      "type": "java.lang.Double",
+      "description": "Description for spring.application.ui.costs."
+    },
+    {
+      "name": "spring.application.ui.costsPerMinute",
+      "type": "java.lang.Double",
+      "description": "Description for spring.application.ui.costsPerMinute."
+    }
+  ] }
