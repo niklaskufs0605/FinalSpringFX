@@ -88,6 +88,10 @@ public class ChartController {
                 RegisterWelcomeText.setTextFill((Paint) Color.GREEN);
                 loginPane.setVisible(true);
                 registerPane.setVisible(false);
+                RegisterFirstNameField.setText("");
+                RegisterLastNameField.setText("");
+                RegisterUsernameField.setText("");
+                RegisterPasswordField.setText("");
             } else {
                 RegisterWelcomeText.setText("Name is not available");
                 RegisterWelcomeText.setTextFill((Paint) Color.RED);
